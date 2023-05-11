@@ -1,0 +1,43 @@
+table,
+th,
+td {
+    border: 1px solid;
+}
+tr:nth-child(even) {
+    background-color: #B4886B;
+}
+th {
+    background-color: #04AA6D;
+    color: grey;
+}
+/* The animation code */
+@keyframes example {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: sandybrown;
+    }
+}
+body {
+    background-color: beige}
+
+h1 {
+    color: saddlebrown;
+}
+
+p {
+    color: red;
+}
+label {
+    color: #B4886B;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+label:after {
+    content: ": "
+}
